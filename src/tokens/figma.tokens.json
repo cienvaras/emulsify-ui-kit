@@ -1475,7 +1475,7 @@
       }
     }
   },
-  "components/hc-button": {
+  "components/button": {
     "button": {
       "color": {
         "bkg": {
@@ -1507,42 +1507,44 @@
           "type": "color"
         }
       },
-      "padding": {
-        "x": {
-          "value": "{spacing.xl}",
-          "type": "spacing"
-        },
-        "x-hover": {
-          "value": "{button.padding.x}",
-          "type": "spacing"
-        },
-        "x-focus": {
-          "value": "{button.padding.x}",
-          "type": "spacing"
-        },
-        "top": {
-          "value": "{spacing.xs}",
-          "type": "spacing"
-        },
-        "top-hover": {
-          "value": "{button.padding.top}",
-          "type": "spacing"
-        },
-        "top-focus": {
-          "value": "{button.padding.top}",
-          "type": "spacing"
-        },
-        "bottom": {
-          "value": "{spacing.sm}",
-          "type": "spacing"
-        },
-        "bottom-hover": {
-          "value": "{button.padding.bottom}",
-          "type": "spacing"
-        },
-        "bottom-focus": {
-          "value": "{button.padding.bottom}",
-          "type": "spacing"
+      "hc": {
+        "padding": {
+          "x": {
+            "value": "{spacing.xl}",
+            "type": "spacing"
+          },
+          "x-hover": {
+            "value": "{button.hc.padding.x}",
+            "type": "spacing"
+          },
+          "x-focus": {
+            "value": "{button.hc.padding.x}",
+            "type": "spacing"
+          },
+          "top": {
+            "value": "{spacing.xs}",
+            "type": "spacing"
+          },
+          "top-hover": {
+            "value": "{button.hc.padding.top}",
+            "type": "spacing"
+          },
+          "top-focus": {
+            "value": "{button.hc.padding.top}",
+            "type": "spacing"
+          },
+          "bottom": {
+            "value": "{spacing.sm}",
+            "type": "spacing"
+          },
+          "bottom-hover": {
+            "value": "{button.hc.padding.bottom}",
+            "type": "spacing"
+          },
+          "bottom-focus": {
+            "value": "{button.hc.padding.bottom}",
+            "type": "spacing"
+          }
         }
       },
       "radius": {
@@ -1606,6 +1608,46 @@
       "font-family": {
         "value": "{font-family.primary}",
         "type": "fontFamilies"
+      },
+      "ht": {
+        "padding": {
+          "x": {
+            "value": "{spacing.xl}",
+            "type": "spacing"
+          },
+          "x-hover": {
+            "value": "{button.hc.padding.x}",
+            "type": "spacing"
+          },
+          "x-focus": {
+            "value": "{button.hc.padding.x}",
+            "type": "spacing"
+          },
+          "top": {
+            "value": "{spacing.xs}",
+            "type": "spacing"
+          },
+          "top-hover": {
+            "value": "{button.hc.padding.top}",
+            "type": "spacing"
+          },
+          "top-focus": {
+            "value": "{button.hc.padding.top}",
+            "type": "spacing"
+          },
+          "bottom": {
+            "value": "{spacing.sm}",
+            "type": "spacing"
+          },
+          "bottom-hover": {
+            "value": "{button.hc.padding.bottom}",
+            "type": "spacing"
+          },
+          "bottom-focus": {
+            "value": "{button.hc.padding.bottom}",
+            "type": "spacing"
+          }
+        }
       }
     }
   },
@@ -1647,11 +1689,11 @@
           "type": "spacing"
         },
         "x-hover": {
-          "value": "{button.padding.x}",
+          "value": "{button.hc.padding.x}",
           "type": "spacing"
         },
         "x-focus": {
-          "value": "{button.padding.x}",
+          "value": "{button.hc.padding.x}",
           "type": "spacing"
         },
         "top": {
@@ -1659,11 +1701,11 @@
           "type": "spacing"
         },
         "top-hover": {
-          "value": "{button.padding.top}",
+          "value": "{button.hc.padding.top}",
           "type": "spacing"
         },
         "top-focus": {
-          "value": "{button.padding.top}",
+          "value": "{button.hc.padding.top}",
           "type": "spacing"
         },
         "bottom": {
@@ -1671,11 +1713,11 @@
           "type": "spacing"
         },
         "bottom-hover": {
-          "value": "{button.padding.bottom}",
+          "value": "{button.hc.padding.bottom}",
           "type": "spacing"
         },
         "bottom-focus": {
-          "value": "{button.padding.bottom}",
+          "value": "{button.hc.padding.bottom}",
           "type": "spacing"
         }
       },
@@ -2580,8 +2622,7 @@
         "components/table": "enabled",
         "components/tabs": "enabled",
         "components/textField": "enabled",
-        "components/hc-button": "enabled",
-        "components/ht-button": "disabled"
+        "components/button": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:23237:16908",
       "$figmaModeId": "23237:10",
@@ -2771,7 +2812,7 @@
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
         "global": "enabled",
-        "components/ht-button": "disabled"
+        "components/button": "disabled"
       },
       "$figmaCollectionId": "VariableCollectionId:23237:17089",
       "$figmaModeId": "23237:11",
@@ -2824,7 +2865,7 @@
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
         "semantic": "enabled",
-        "components/ht-button": "disabled"
+        "components/button": "disabled"
       },
       "$figmaCollectionId": "VariableCollectionId:23237:17133",
       "$figmaModeId": "23237:12",
@@ -2847,7 +2888,7 @@
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
         "storybook": "source",
-        "components/ht-button": "disabled"
+        "components/button": "disabled"
       },
       "$figmaCollectionId": "VariableCollectionId:23237:17144",
       "$figmaModeId": "23237:13",
@@ -2875,8 +2916,7 @@
         "components/table": "enabled",
         "components/tabs": "enabled",
         "components/textField": "enabled",
-        "components/hc-button": "enabled",
-        "components/ht-button": "disabled"
+        "components/button": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:23237:17145",
       "$figmaModeId": "23237:14",
@@ -3014,7 +3054,7 @@
       "components/accordion",
       "components/blockQuote",
       "components/breadcrumbs",
-      "components/hc-button",
+      "components/button",
       "components/ht-button",
       "components/card",
       "components/checkbox",
